@@ -1,0 +1,141 @@
+{
+  "content": {
+    "comments": "contentView",
+    "featureId": 0,
+    "width": -1,
+    "height": -2,
+    "padding": {
+      "left": 8,
+      "right": 8,
+      "top": 8,
+      "bottom": 8
+    },
+    "margin": {
+      "left": 0,
+      "right": 0,
+      "top": 0,
+      "bottom": 0
+    },
+    "backgroundColor": "#ffffff",
+    "viewType": "column",
+    "children": [
+      {
+        "comments": "toolbar",
+        "featureId": 1,
+        "width": -1,
+        "height": -2,
+        "padding": {
+          "left": 8,
+          "right": 8,
+          "top": 8,
+          "bottom": 8
+        },
+        "margin": {
+          "left": 0,
+          "right": 0,
+          "top": 0,
+          "bottom": 0
+        },
+        "backgroundColor": "#ffffff",
+        "viewType": "toolbar",
+        "title": "Dashboards",
+        "backIcon": false,
+        "elevation": 0,
+        "menuOptions": []
+      },
+      {
+        "comments": "dashboardRecyclerView",
+        "featureId": 2,
+        "width": -1,
+        "height": -1,
+        "padding": {
+          "left": 8,
+          "right": 8,
+          "top": 8,
+          "bottom": 8
+        },
+        "margin": {
+          "left": 0,
+          "right": 0,
+          "top": 0,
+          "bottom": 0
+        },
+        "backgroundColor": "#ffffff",
+        "viewType": "lazyColumn",
+        "itemView": [
+          {
+            "comments": "RecyclerView - ItemView",
+            "typeId": 3,
+            "content": {
+              "featureId": 4,
+              "width": -1,
+              "height": -2,
+              "padding": {
+                "left": 0,
+                "right": 0,
+                "top": 0,
+                "bottom": 0
+              },
+              "margin": {
+                "left": 0,
+                "right": 0,
+                "top": 0,
+                "bottom": 0
+              },
+              "backgroundColor": "#ffffff",
+              "viewType": "row",
+              "children": [
+                {
+                  "comments": "textView",
+                  "featureId": 5,
+                  "width": -3,
+                  "height": -1,
+                  "widthPercentage": 0.9,
+                  "padding": {
+                    "left": 8,
+                    "right": 8,
+                    "top": 8,
+                    "bottom": 8
+                  },
+                  "margin": {
+                    "left": 0,
+                    "right": 0,
+                    "top": 0,
+                    "bottom": 0
+                  },
+                  "backgroundColor": "#ffffff",
+                  "viewType": "text",
+                  "textSize": 12,
+                  "typeface": "default",
+                  "textColor": "#000000"
+                },
+                {
+                  "comments": "isFavorite",
+                  "featureId": 6,
+                  "width": -3,
+                  "height": -1,
+                  "widthPercentage": 0.1,
+                  "padding": {
+                    "left": 8,
+                    "right": 8,
+                    "top": 8,
+                    "bottom": 8
+                  },
+                  "margin": {
+                    "left": 0,
+                    "right": 0,
+                    "top": 0,
+                    "bottom": 0
+                  },
+                  "backgroundColor": "#ffffff",
+                  "viewType": "image",
+                  "cropType": "default"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,139 @@
+{
+  "content": {
+    "comments": "contentView",
+    "featureId": 0,
+    "width": -1,
+    "height": -2,
+    "padding": {
+      "left": 8,
+      "right": 8,
+      "top": 8,
+      "bottom": 8
+    },
+    "margin": {
+      "left": 0,
+      "right": 0,
+      "top": 0,
+      "bottom": 0
+    },
+    "backgroundColor": "#ffffff",
+    "viewType": "column",
+    "children": [
+      {
+        "comments": "toolbar",
+        "featureId": 1,
+        "width": -1,
+        "height": -2,
+        "padding": {
+          "left": 8,
+          "right": 8,
+          "top": 8,
+          "bottom": 8
+        },
+        "margin": {
+          "left": 0,
+          "right": 0,
+          "top": 0,
+          "bottom": 0
+        },
+        "backgroundColor": "#ffffff",
+        "viewType": "toolbar",
+        "title": "Component Name"
+      },
+      {
+        "comments": "ComponentsRecyclerView",
+        "featureId": 2,
+        "width": -1,
+        "height": -1,
+        "padding": {
+          "left": 8,
+          "right": 8,
+          "top": 8,
+          "bottom": 8
+        },
+        "margin": {
+          "left": 0,
+          "right": 0,
+          "top": 0,
+          "bottom": 0
+        },
+        "backgroundColor": "#ffffff",
+        "viewType": "lazyColumn",
+        "itemView": [
+          {
+            "comments": "RecyclerView - CardView",
+            "typeId": 3,
+            "content": {
+              "featureId": 4,
+              "width": -1,
+              "height": -2,
+              "padding": {
+                "left": 0,
+                "right": 0,
+                "top": 0,
+                "bottom": 0
+              },
+              "margin": {
+                "left": 0,
+                "right": 0,
+                "top": 0,
+                "bottom": 0
+              },
+              "backgroundColor": "#ffffff",
+              "viewType": "row",
+              "cornerRadius": 4,
+              "elevation": 2,
+              "children": [
+                {
+                  "comments": "CardView - title",
+                  "featureId": 5,
+                  "width": -3,
+                  "height": -1,
+                  "widthPercentage": 0.9,
+                  "padding": {
+                    "left": 8,
+                    "right": 8,
+                    "top": 8,
+                    "bottom": 8
+                  },
+                  "margin": {
+                    "left": 0,
+                    "right": 0,
+                    "top": 0,
+                    "bottom": 0
+                  },
+                  "backgroundColor": "#ffffff",
+                  "viewType": "text",
+                  "textSize": 12,
+                  "typeface": "default",
+                  "textColor": "#000000"
+                },
+                {
+                  "comments": "CardView - chart",
+                  "featureId": 5,
+                  "width": -3,
+                  "height": -1,
+                  "widthPercentage": 0.9,
+                  "padding": {
+                    "left": 8,
+                    "right": 8,
+                    "top": 8,
+                    "bottom": 8
+                  },
+                  "margin": {
+                    "left": 0,
+                    "right": 0,
+                    "top": 0,
+                    "bottom": 0
+                  },
+                  "backgroundColor": "#ffffff",
+                  "viewType": "image"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  }
+}
